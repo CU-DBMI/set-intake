@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Google Form
+    url: https://docs.google.com/forms
+    about: I want to request support but don't have a GitHub account

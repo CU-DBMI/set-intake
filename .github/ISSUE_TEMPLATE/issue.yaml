@@ -1,0 +1,76 @@
+name: Request support
+description: I need to request support from the Software Engineering Team
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This is a form to request support from the University of Colorado Department of Biomedical Informatics **Software Engineering Team** (SET). [⭐ List of our services and current team members ⭐](https://cu-dbmi.github.io/set-website/about)
+
+        **This form is not meant to be a barrier to support**, it is only meant to save time and allow us to better help you by asking a standard set of questions and tracking requests in an organized way. If you already have an established contact and agreement with a specific SET developer, you can continue to communicate directly with them.
+
+        If you don't have a GitHub account, you can instead use [this Google Form](https://docs.google.com/forms), which will create an request here automatically. You can look at what support others have requested [here](https://github.com/CU-DBMI/set-intake/issues). Note that these requests are publicly visible. If you need to make a private request, please contact [Audrey Wen](mailto:audrey.wen@cuanschutz.edu) with the same info as below.
+
+  - type: input
+    id: group
+    attributes:
+      label: Group
+      description: The lab, faculty member, PI, team, org, or group this project is primarily for.
+      placeholder: e.g. Greene Lab
+
+  - type: textarea
+    id: contact
+    attributes:
+      label: Contact info
+      description: Contact and name info for key parties for the project.
+      placeholder: |
+        E.g.:
+        Casey Greene, PI, casey@greenelab.com, @caseygreene on slack
+        John Doe, project lead, john.doe@fake.com, @johndoe on slack
+
+  - type: textarea
+    id: repos
+    attributes:
+      label: Links to code
+      description: |
+        Link to any existing code you have on e.g. GitHub, GitLab, Bitbucket, etc., and provide us the appropriate permissions to view it ([invite all team members](https://cu-dbmi.github.io/set-website/about#the-team)). This will help us to proactively answer questions, estimate time, find solutions, contribute fixes, etc.
+      placeholder: |
+        E.g.:
+        https://github.com/greenelab/greenelab.com
+
+  - type: textarea
+    id: workflow
+    attributes:
+      label: Workflow
+      description: |
+        Describe your software workflow and practices. E.g.:
+        - Do you use git and GitHub for tracking code?
+        - What operating system do you use?
+        - What programming languages, package managers, and notable libraries do you use?
+        - What IDE/editor or other tools do you use?
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Work description
+      description: |
+        Describe the specific support you need from SET. E.g.:
+        - What kind of [project work](https://cu-dbmi.github.io/set-website/about#what-we-do) needs to be done?
+        - What platforms do you need to target?
+        - What is the "minimum viable product"? What are the different phases of the project?
+        - Are there HIPAA concerns?
+        - Is there a long term maintenance plan?
+
+  - type: textarea
+    id: timeline
+    attributes:
+      label: Timeline
+      description: |
+        Describe all of your hard and soft deadlines for specific parts of the support.
+
+  - type: textarea
+    id: funding
+    attributes:
+      label: Funding
+      description: |
+        Describe your funding situation in detail. The department can cover SET's costs up to a point (e.g. for small projects and tech support), but you may be asked to cover some or all of the costs with your own grant (or other) funds, especially for larger and more long-term projects.
