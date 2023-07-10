@@ -63,7 +63,7 @@ body:
         - What kind of [project work](https://cu-dbmi.github.io/set-website/about#what-we-do) needs to be done?
         - What platforms do you need to target?
         - What is the "minimum viable product"? What are the different phases of the project?
-        - Are there HIPAA concerns?
+        - **Does your project involve data covered by [HIPAA](https://www.cdc.gov/phlp/publications/topic/hipaa.html), e.g. [protected health information](https://www.hipaajournal.com/what-is-protected-health-information/) (PHI)?**
         - Is there a long term maintenance plan?
 
   - type: textarea
