@@ -9,7 +9,12 @@ body:
 
         **This form is not meant to be a barrier to support**, it is only meant to save time and allow us to better help you by asking a standard set of questions and tracking requests in an organized way. If you already have an established contact and agreement with a specific SET developer, you can continue to communicate directly with them.
 
-        If you don't have a GitHub account, you can instead use [this Google Form](https://docs.google.com/forms), which will create an request here automatically. You can look at what support others have requested [here](https://github.com/CU-DBMI/set-intake/issues). Note that these requests are publicly visible. If you need to make a private request, please contact [Audrey Wen](mailto:audrey.wen@cuanschutz.edu) with the same info as below.
+        This support request does not become a rigid, set-in-stone contract. However, we do ask that you help us keep it up to date by posting a new comment whenever there are significant changes in work or scope.
+
+        If you don't have a GitHub account, you can instead use [this Google Form](https://docs.google.com/forms), which will create an request here automatically. 
+        However, we recommend signing up for a GitHub account so you can receive [notifications](https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/setting-up-notifications/about-notifications) on updates to this request.
+        
+        You can look at what support others have requested [here](https://github.com/CU-DBMI/set-intake/issues). Note that these requests are publicly visible. If you need to make a private request, please contact [Audrey Wen](mailto:audrey.wen@cuanschutz.edu) with the same info as below.
 
   - type: input
     id: group
