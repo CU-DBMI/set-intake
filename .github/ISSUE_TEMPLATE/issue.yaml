@@ -5,15 +5,17 @@ body:
   - type: markdown
     attributes:
       value: |
-        This is a form to request support from the University of Colorado Department of Biomedical Informatics **Software Engineering Team** (SET). [⭐ List of our services and current team members ⭐](https://cu-dbmi.github.io/set-website/about)
+        This is a form to request support from the University of Colorado Department of Biomedical Informatics **Software Engineering Team** (SET).
+
+        [⭐ List of our services and current team members ⭐](https://cu-dbmi.github.io/set-website/about)
 
         **This form is not meant to be a barrier to support**, it is only meant to save time and allow us to better help you by asking a standard set of questions and tracking requests in an organized way. If you already have an established contact and agreement with a specific SET developer, you can continue to communicate directly with them.
 
         This support request does not become a rigid, set-in-stone contract. However, we do ask that you help us keep it up to date by posting a new comment whenever there are significant changes in work or scope.
 
-        If you don't have a GitHub account, you can instead use [this Google Form](https://docs.google.com/forms), which will create a request here automatically. However, we recommend signing up for a GitHub account so you can receive [notifications](https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/setting-up-notifications/about-notifications) on updates to this request.
-        
-        You can look at what support others have requested [here](https://github.com/CU-DBMI/set-intake/issues). Note that these requests are publicly visible. If you need to make a private request, please contact [Audrey Wen](mailto:audrey.wen@cuanschutz.edu) with the same info as below.
+        If you don't have a GitHub account, you can instead use [this Google Form](https://forms.gle/x5xHTXduRHERvhhS9), which will create a request here automatically. However, we recommend signing up for a GitHub account so you can receive [notifications](https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/setting-up-notifications/about-notifications) on updates to this request.
+
+        **This request will be publicly visible after you submit it**. You can look at what support others have requested [here](https://github.com/CU-DBMI/set-intake/issues). If you need to make a private request, please contact [Audrey Wen](mailto:audrey.wen@cuanschutz.edu) with the same info as below. Or you can fill out the form but omit details that you want to keep private (such as funding), and send the missing info to Audrey directly.
 
   - type: input
     id: group
@@ -37,7 +39,7 @@ body:
     attributes:
       label: Links to code
       description: |
-        Link to any existing code you have on e.g. GitHub, GitLab, Bitbucket, etc., and provide us the appropriate permissions to view it ([invite all team members](https://cu-dbmi.github.io/set-website/about#the-team)). This will help us to proactively answer questions, estimate time, find solutions, contribute fixes, etc.
+        Link to any existing code you have on e.g. GitHub, GitLab, Bitbucket, etc., and provide us the appropriate permissions to view it ([please invite all of our team members](https://cu-dbmi.github.io/set-website/about#the-team)). This will help us to proactively answer questions, estimate time, find solutions, contribute fixes, etc.
       placeholder: |
         E.g.:
         https://github.com/greenelab/some-repo
@@ -60,9 +62,9 @@ body:
       description: |
         Describe the specific support you need from SET. E.g.:
         - What kind of [project work](https://cu-dbmi.github.io/set-website/about#what-we-do) needs to be done?
-        - What platforms do you need to target?
+        - Does the data you're handling fall under any [confidential classification](https://www.cu.edu/security/data-classification)? Critically, **does your project involve data covered by [HIPAA](https://www.cdc.gov/phlp/publications/topic/hipaa.html)**, e.g. protected health information (PHI)?
         - What is the "minimum viable product"? What are the different phases of the project?
-        - **Does your project involve data covered by [HIPAA](https://www.cdc.gov/phlp/publications/topic/hipaa.html), e.g. [protected health information](https://www.hipaajournal.com/what-is-protected-health-information/) (PHI)?**
+        - What platforms do you need to target?
         - Is there a long term maintenance plan?
 
   - type: textarea
@@ -77,4 +79,6 @@ body:
     attributes:
       label: Funding
       description: |
-        Describe your funding situation in detail. The department can cover SET's costs up to a point (e.g. for small projects and tech support), but you may be asked to cover some or all of the costs with your own grant (or other) funds, especially for larger and more long-term projects.
+        The department can cover SET's costs up to a point (e.g. for small projects and tech support), but you may be asked to cover some or all of the costs with your own grant (or other) funds, especially for larger and more long-term projects. Describe your funding situation in detail.
+
+        _Omit if you want to keep this info private_ (see note above).
