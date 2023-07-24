@@ -7,13 +7,13 @@ body:
       value: |
         This is a form to request support from the University of Colorado Department of Biomedical Informatics **Software Engineering Team** (SET).
 
-        [⭐ List of our services and current team members ⭐](https://cu-dbmi.github.io/set-website/about)
+        [⭐ **List of our services and current team members** ⭐](https://cu-dbmi.github.io/set-website/about)
+
+        **If you don't have a GitHub account**, you can instead use [this Google Form](https://forms.gle/x5xHTXduRHERvhhS9), which will create a request here for you.
 
         **This form is not meant to be a barrier to support**, it is only meant to save time and allow us to better help you by asking a standard set of questions and tracking requests in an organized way. If you already have an established contact and agreement with a specific SET developer, you can continue to communicate directly with them.
 
         This support request does not become a rigid, set-in-stone contract. However, we do ask that you help us keep it up to date by posting a new comment or editing the original request whenever there are significant changes in work or scope.
-
-        **If you don't have a GitHub account**, you can instead use [this Google Form](https://forms.gle/x5xHTXduRHERvhhS9), which will create a request here for you.
 
         **This request will be publicly visible after you submit it**. You can look at what support others have requested [here](https://github.com/CU-DBMI/set-intake/issues). If you need to make a private request, please contact [Audrey Wen](mailto:audrey.wen@cuanschutz.edu) with the same info as below. Or you can fill out the form but omit details that you want to keep private (such as funding), and send the missing info to Audrey directly.
 
