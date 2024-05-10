@@ -63,8 +63,8 @@ body:
         - What do you need help debugging/troubleshooting?
         - What questions do you want to ask? What do you want to learn about?
         - What kind of [project](https://cu-dbmi.github.io/set-website/about#what-we-do) do you have?
-            - Which parts do you need help with? E.g design, implementation, debugging, automation, testing, maintenance, etc.
-            - What are the requirements? What is the "minimum viable product"? What are the different phases of the project?
+          - Which parts do you need help with? E.g. design, implementation, debugging, automation, testing, maintenance, etc.
+          - What are the requirements? What is the "minimum viable product"? What are the different phases of the project?
         - Does any data you're handling fall under [confidential classification](https://www.cu.edu/security/data-classification)? **Does your support involve data covered by [HIPAA](https://www.cdc.gov/phlp/publications/topic/hipaa.html)**, e.g. protected health information (PHI)?
     validations:
       required: true
