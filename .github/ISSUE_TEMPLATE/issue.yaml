@@ -59,7 +59,7 @@ body:
       label: Description
       description: |
         Describe the specific support you need from SET. E.g.:
-        - What is roughly the scope of the support? Short, medium, or long-term? Simple or complex? One-off or on-going?
+        - What is roughly the scope of the support? Short, medium, or long-term? Simple or complex? One-off or ongoing?
         - What do you need help debugging/troubleshooting?
         - What questions do you want to ask? What do you want to learn about?
         - What kind of [project](https://cu-dbmi.github.io/set-website/about#what-we-do) do you have?
