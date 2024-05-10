@@ -23,6 +23,8 @@ body:
       label: Group
       description: The lab, faculty member, PI, team, org, or group this project is primarily for.
       placeholder: e.g. Greene Lab
+    validations:
+      required: true
 
   - type: textarea
     id: contact
@@ -31,8 +33,41 @@ body:
       description: Contact and name info for key parties for the project.
       placeholder: |
         E.g.:
-        Casey Greene, PI, casey@greenelab.com, @caseygreene on slack
-        John Doe, project lead, john.doe@fake.com, @johndoe on slack
+        Casey Greene, PI, casey@greenelab.com, @caseygreene on Slack
+        John Doe, project lead, john.doe@fake.com, @johndoe on Slack
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Type of support
+      description: Which of these best describe the type of support you need?
+      options:
+        - Short/medium-term project (ongoing)
+        - Debugging/troubleshooting (one-off)
+        - Consulting/education (one-off)
+        - Other
+      multiple: true
+      default: 0
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: |
+        Describe the specific support you need from SET. E.g.:
+        - What is roughly the scope of the support? Short, medium, or long-term? Simple or complex? One-off or on-going?
+        - What do you need help debugging/troubleshooting?
+        - What questions do you want to ask? What do you want to learn about?
+        - What kind of [project](https://cu-dbmi.github.io/set-website/about#what-we-do) do you have?
+            - Which parts do you need help with? E.g design, implementation, debugging, automation, testing, maintenance, etc.
+            - What are the requirements? What is the "minimum viable product"? What are the different phases of the project?
+        - Does any data you're handling fall under [confidential classification](https://www.cu.edu/security/data-classification)? **Does your support involve data covered by [HIPAA](https://www.cdc.gov/phlp/publications/topic/hipaa.html)**, e.g. protected health information (PHI)?
+    validations:
+      required: true
 
   - type: textarea
     id: repos
@@ -56,29 +91,19 @@ body:
         - What IDE/editor or other tools do you use?
 
   - type: textarea
-    id: description
-    attributes:
-      label: Work description
-      description: |
-        Describe the specific support you need from SET. E.g.:
-        - What kind of [project work](https://cu-dbmi.github.io/set-website/about#what-we-do) needs to be done?
-        - Does the data you're handling fall under any [confidential classification](https://www.cu.edu/security/data-classification)? Critically, **does your project involve data covered by [HIPAA](https://www.cdc.gov/phlp/publications/topic/hipaa.html)**, e.g. protected health information (PHI)?
-        - What is the "minimum viable product"? What are the different phases of the project?
-        - What platforms do you need to target?
-        - Is there a long term maintenance plan?
-
-  - type: textarea
     id: timeline
     attributes:
       label: Timeline
       description: |
-        Describe all of your hard and soft deadlines for specific parts of the support.
+        Describe all of your hard and soft deadlines for specific parts of the support. E.g.:
+        - When does your issue need to be fixed or question answered by?
+        - When does your project need to be done? What are the milestones?
 
   - type: textarea
     id: funding
     attributes:
       label: Funding
       description: |
-        The department can cover SET's costs up to a point (e.g. for small projects and tech support), but you may be asked to cover some or all of the costs with your own grant (or other) funds, especially for larger and more long-term projects. Describe your funding situation in detail.
+        For small/one-off efforts, the department enables SET to offer support at no cost. For larger/ongoing efforts, you'll likely be asked to cover some or all of the cost with your own grant (or other) funds. If applicable, describe your funding situation in detail.
 
         **Omit if you want to keep this info private** (see note above).
