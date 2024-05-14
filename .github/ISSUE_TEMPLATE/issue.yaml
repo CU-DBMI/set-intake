@@ -58,7 +58,7 @@ body:
     attributes:
       label: Description
       description: |
-        Describe the specific support you need from SET. E.g.:
+        Describe the support you need from SET. Feel free to put what you need in your own words, but here are some common questions:
         - What is roughly the scope of the support? Short, medium, or long-term? Simple or complex? One-off or ongoing?
         - What do you need help debugging/troubleshooting?
         - What questions do you want to ask? What do you want to learn about?
