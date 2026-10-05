@@ -53,6 +53,21 @@ body:
     validations:
       required: true
 
+  - type: dropdown
+    id: involvement
+    attributes:
+      label: Level of SET involvement
+      description: |
+        How do you want SET to be involved in this work? Pick one or more — this isn't set in stone, and you can change it later as the work evolves.
+      options:
+        - Enablement — SET advises, reviews, and teaches; your team does the hands-on work
+        - Collaboration — SET and your team work on it together
+        - Full takeover — SET takes the work over completely
+        - Not sure yet — happy to discuss what makes sense
+      multiple: true
+    validations:
+      required: true
+
   - type: textarea
     id: description
     attributes:
